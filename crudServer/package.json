@@ -1,0 +1,16 @@
+{
+  "name": "crudserver",
+  "version": "1.0.0",
+  "description": "A simple CRUD server application",
+  "license": "ISC",
+  "author": "ajay",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

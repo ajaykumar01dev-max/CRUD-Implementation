@@ -1,0 +1,168 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f4ff;
+}
+
+.heroContent {
+    width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.heroHeader {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.entryForm {
+    flex: 1;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.entryForm .form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.entryForm .form input {
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.entryForm .form input:focus {
+    border-color: #2563eb;
+}
+
+.entryForm .form button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #111827;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.entryForm .form button:hover {
+    background-color: #000000;
+    transform: translateY(-1px);
+}
+
+.dataView {
+    flex: 1;
+    height: 250px;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f5f9ff;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+}
+
+.itemView {
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: transform 0.2s;
+}
+
+.itemView:hover {
+    transform: translateY(-2px);
+}
+
+.userName {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.userEmail,
+.userPhone {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.actionButtons {
+    margin-top: 8px;
+    display: flex;
+    gap: 10px;
+}
+.saveBtn,
+.editBtn,
+.deleteBtn {
+    flex: 1;
+    padding: 6px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+.saveBtn{
+    background-color: #10b981;
+    color: #ffffff;
+}
+.saveBtn:hover {
+    background-color: #059669;
+    transform: translateY(-1px);
+}
+
+.editBtn {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.editBtn:hover {
+    background-color: #1e40af;
+    transform: translateY(-1px);
+}
+
+.deleteBtn {
+    background-color: #dc2626;
+    color: #ffffff;
+}
+
+.deleteBtn:hover {
+    background-color: #b91c1c;
+    transform: translateY(-1px);
+}
+
+.noData {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 14px;
+    margin-top: 50px;
+}
